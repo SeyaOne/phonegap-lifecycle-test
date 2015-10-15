@@ -41,5 +41,5 @@ var launched_count = 0;
     }*/
     
 // Vibrate for 1 second
-navigator.vibrate(1000);
+navigator.vibrate(1000, 0, 1000);
 
