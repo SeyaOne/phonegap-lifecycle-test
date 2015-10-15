@@ -40,13 +40,6 @@ var launched_count = 0;
 		updateDisplay();
     }*/
     
-// Immediately start vibrating
-// vibrate for 100ms,
-// wait for 100ms,
-// vibrate for 200ms,
-// wait for 100ms,
-// vibrate for 400ms,
-// wait for 100ms,
-// vibrate for 800ms,
-// (do not repeat)
-navigator.notification.vibrateWithPattern([0, 100, 100, 200, 100, 400, 100, 800]);
+// Vibrate for 3 seconds
+navigator.vibrate(3000);
+
