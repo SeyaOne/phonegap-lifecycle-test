@@ -1,4 +1,4 @@
-var paused_count =0;
+/*var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
 
@@ -38,7 +38,7 @@ var launched_count = 0;
 		alert("resume");
 		resumed_count++;
 		updateDisplay();
-    }
+    }*/
     
 if ('vibrate' in navigator) {
    // Shake that device!
