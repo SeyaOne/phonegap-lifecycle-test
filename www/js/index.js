@@ -41,5 +41,5 @@ var launched_count = 0;
     }*/
     
 // Vibrate for 3 seconds
-navigator.vibrate(3000);
+navigator.vibrate(0, 100, 100, 200, 100, 400, 100, 800);
 
