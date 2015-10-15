@@ -40,6 +40,6 @@ var launched_count = 0;
 		updateDisplay();
     }*/
     
-// Vibrate for 3 seconds
-navigator.vibrate(0, 100, 100, 200, 100, 400, 100, 800);
+// Vibrate for 1 second
+navigator.vibrate(1000);
 
