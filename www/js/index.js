@@ -40,8 +40,6 @@ var launched_count = 0;
 		updateDisplay();
     }*/
     
-if ('vibrate' in navigator) {
-   // Shake that device!
-} else {
-   // Not supported
+if ("vibrate" in navigator) {
+	// vibration API supported
 }
