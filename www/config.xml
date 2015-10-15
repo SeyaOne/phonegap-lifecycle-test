@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
@@ -17,8 +17,9 @@
     </author>
 
     <preference name="permissions"                value="none"/>   
-	
+	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 	<access origin="*"/>
+	
 </widget>
 
 
