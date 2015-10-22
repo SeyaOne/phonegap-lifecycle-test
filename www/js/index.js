@@ -43,3 +43,15 @@ var launched_count = 0;
 // Vibrate for 1 second
 navigator.vibrate(1000);
 
+ 	//////////////
+ 	
+ 	
+	var key = “pen”;
+var value = “blue”;
+window.localStorage.setItem( key, value );
+
+
+var key = “pen”;
+var value = window.localStorage.getItem(key);
+	
+
