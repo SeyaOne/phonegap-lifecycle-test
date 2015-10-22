@@ -1,4 +1,4 @@
-var paused_count =0;
+/*var paused_count =0;
 var resumed_count = 0;
 var launched_count = 0;
 
@@ -38,11 +38,11 @@ var launched_count = 0;
 		alert("resume");
 		resumed_count++;
 		updateDisplay();
-    }
+    }*/
     
-// Vibrate for 1 second
+/* Vibrate for 1 second
 navigator.vibrate(1000);
-
+*/
  	//////////////
  	
  	
