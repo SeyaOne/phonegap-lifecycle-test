@@ -45,7 +45,7 @@ navigator.vibrate(1000);
 */
  	//////////////
  	
- 	
+ /*	
 	var key = "pen";
 var value = "blue";
 window.localStorage.setItem( key, value );
@@ -56,3 +56,22 @@ var value = window.localStorage.getItem(key);
 
 	alert(window.localStorage.getItem(key));
 
+*/
+
+
+
+$(document).on("pagecreate","#pageone",function(){
+  $('#submitButton').on("click", function(){
+    submitText();
+  });            
+});            
+
+
+function submitText() {
+	var text = $('#textinput').val();
+	alert(text);
+}
+
+function storeValue(key, value) {
+	//add some code to store the key-value pair in persistant storage 
+}
