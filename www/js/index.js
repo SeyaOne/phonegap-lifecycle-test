@@ -58,7 +58,7 @@ var value = window.localStorage.getItem(key);
 
 */
 
-/*
+
 
 $(document).on("pagecreate","#pageone",function(){
   $('#submitButton').on("click", function(){
